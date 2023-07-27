@@ -1,0 +1,125 @@
+Program 1
+public class ao{
+    public static void main(String[] args){
+        int a = 12, b = 4;
+        System.out.println("a + b = " + (a + b));
+        System.out.println("a - b = " + (a - b));
+        System.out.println("a * b = " + (a * b));
+        System.out.println("a / b = " + (a / b));
+        System.out.println("a % b = " + (a % b));
+    }
+}
+
+Program 2
+public class ao{
+    public static void main(String[] args){
+        int a = 4;
+        int var;
+        var = a;
+        System.out.println("var using =: " + var);
+        var += a;
+        System.out.println("var using +=: " + var);
+        var *= a;
+        System.out.println("var using *=: " + var);
+    }
+}
+
+Program 3
+public class ao{
+    public static void main(String[] args){
+        int a = 4, b = 6;
+        System.out.println("a is " + a + " and b is " + b);
+        System.out.println(a == b);
+        System.out.println(a != b);
+        System.out.println(a > b);
+        System.out.println(a < b);
+        System.out.println(a <= b);
+        System.out.println(a >= b);
+    }
+}
+
+Progra 4
+public class ao{
+    public static void main(String[] args){
+        System.out.println((5<3) && (8<5));
+        System.out.println((5>3) && (8<5));
+        System.out.println((5>3) && (8>5));
+        System.out.println((5<3) || (8<5));
+        System.out.println((5>3) || (8<5));
+        System.out.println((5>3) || (8>5));
+        System.out.println(!(5>3));
+        System.out.println(!(5==3));
+}
+}
+
+Proram 5
+public class ao{
+    public static void main(String[] args){
+        int a = 12, b = 12, c = 14, d = 14;
+        int result1,result2,result3,result4;
+        System.out.println("Value of a= "+a);
+        result1 = ++a;
+        System.out.println("After increment: "+result1);
+        System.out.println("Value of b= "+b);
+        result2 = --b;
+        System.out.println("After decrement: "+result2);
+        System.out.println("Value of c= "+c);
+        result3 = c++;
+        System.out.println("After increment: "+result3);
+        System.out.println("Value of d= "+d);
+        result4 = d--;
+        System.out.println("After decrement: "+result4);
+    }
+}
+
+Program 6
+public class ao{
+    public static void main(String[] args){
+        int size = 5;
+        for(int i = 0; i < size; i++){
+            for(int j = 0; j < size; j++){
+                System.out.println("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+Program 7
+class Main{
+    public static void main(String[] args){
+        int size = 5;
+        for(int i = 0; i < size; i++){
+            for(int j = 0; j < size; j++){
+                if(i == 0 || i == size - 1){
+                    System.out.print("*");
+                }
+                else{
+                    if(j == 0 || j == size - 1){
+                        System.out.print("*");
+                    }
+                    else{
+                        System.out.print(" ");
+                    }
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
+Program 8
+class Main{
+    public static void main(String[] args){
+        int size = 5;
+        for(int i = 0; i < size; i++){
+            for(int j = 1; j < size - i; j++){
+               System.out.print(" ");
+            }
+            for(int k = 0; k <= i; k++){
+                System.out.print("&");
+            }
+            System.out.println();
+        }
+    }
+}
